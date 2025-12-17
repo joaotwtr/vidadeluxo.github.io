@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Seu Curso — Página Oficial</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #0f172a, #020617);
+      color: #f8fafc;
+      min-height: 100vh;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 80px 20px;
+    }
+
+    h1 {
+      font-size: 48px;
+      line-height: 1.1;
+      margin-bottom: 20px;
+    }
+
+    h1 span {
+      color: #22c55e;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+      color: #cbd5f5;
+      margin-bottom: 30px;
+    }
+
+    .benefits {
+      margin: 40px 0;
+    }
+
+    .benefits li {
+      list-style: none;
+      font-size: 18px;
+      margin-bottom: 15px;
+      padding-left: 30px;
+      position: relative;
+    }
+
+    .benefits li::before {
+      content: "✔";
+      position: absolute;
+      left: 0;
+      color: #22c55e;
+      font-weight: bold;
+    }
+
+    .cta {
+      margin-top: 60px;
+    }
+
+    .cta a {
+      display: inline-block;
+      background: #22c55e;
+      color: #020617;
+      padding: 18px 36px;
+      font-size: 20px;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .cta a:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 30px rgba(34, 197, 94, 0.4);
+    }
+
+    .proof {
+      margin-top: 80px;
+      padding-top: 40px;
+      border-top: 1px solid rgba(255,255,255,0.1);
+    }
+
+    .proof p {
+      font-style: italic;
+      color: #94a3b8;
+    }
+
+    footer {
+      margin-top: 100px;
+      text-align: center;
+      font-size: 14px;
+      color: #64748b;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 36px;
+      }
+
+      p, .benefits li {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <h1>Aprenda <span>HABILIDADE PRINCIPAL</span> e transforme isso em renda</h1>
+
+    <p>
+      Este curso foi criado para pessoas comuns que querem sair do zero e aprender,
+      passo a passo, como aplicar <strong>HABILIDADE PRINCIPAL</strong> na prática,
+      sem teoria inútil e sem enrolação.
+    </p>
+
+    <ul class="benefits">
+      <li>O método exato que você precisa seguir, mesmo começando do zero</li>
+      <li>Erros que fazem iniciantes perderem tempo e dinheiro</li>
+      <li>Como aplicar isso na prática e gerar resultados reais</li>
+      <li>Estratégia simples, sem promessas milagrosas</li>
+    </ul>
+
+    <div class="cta">
+      <a href="https://SEULINKAQUI.com" target="_blank">Quero aprender agora</a>
+    </div>
+
+    <div class="proof">
+      <p>
+        “Não é curso motivacional. É um guia direto para quem quer aprender de verdade.”
+      </p>
+    </div>
+
+    <footer>
+      © 2025 — Seu Nome | Todos os direitos reservados
+    </footer>
+
+  </div>
+</body>
+</html>
